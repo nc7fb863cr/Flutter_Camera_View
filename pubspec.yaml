@@ -1,0 +1,19 @@
+name: native_camera
+description: Native Camera Plugin For Flutter
+version: 0.0.1
+homepage: https://github.com/nc7fb863cr/Flutter_Camera_View
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: NativeCameraPlugin
